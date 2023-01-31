@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul, ol{
+    list-style: none
+}   
+
+body, html{
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonte/poppins-extrabold.ttf);
+}
+
+@font-face {
+    font-family: 'Mansalva';
+    src: url(./fonte/Mansalva-Regular.ttf);
+}
+
+
+body{
+    background: url(./img/busao.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.box-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.section-name{
+    color: #D1D0D0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10%;
+}
+
+h1{
+    color: #E0B441;
+    font-family: 'Mansalva';
+    font-size: 6rem;
+}
+
+.bora{
+    color: #D1D0D0;
+}
+
+p{
+    color: #D1D0D0;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+}
+
+.box-lr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-login{
+    padding-top: 20%;
+}
+
+.box-lu, .box-lm{
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-lm{
+    background-color: white;
+}
